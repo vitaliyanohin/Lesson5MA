@@ -1,7 +1,5 @@
 public interface RobotConnectionManager {
 
-  void close();
-
-   void getConnection();
+  RobotConnection getConnection();
 
 }
